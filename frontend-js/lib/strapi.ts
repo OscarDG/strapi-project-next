@@ -23,10 +23,8 @@ populate: {
 }
 
 export async function getHomePage(){
-    //'use cache'
-    //cacheLife({
-      //expire: 86400 // 24 hours
-    //})
+    'use cache'
+    
     const query = qs.stringify(QUERY_HOME_PAGE);
     const response = await getStrapiData(`/api/home-page?${query}`);
 

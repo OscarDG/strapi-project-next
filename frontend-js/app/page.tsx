@@ -1,4 +1,3 @@
-export const revalidate = 86400; // Revalidate this page every 10 seconds
 
 import { HeroSection } from "@/components/hero-section";
 import { getHomePage } from "../lib/strapi";
