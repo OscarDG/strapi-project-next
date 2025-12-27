@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/node_modules/.pnpm/next%4016.1.0_%40babel%2Bcore%407.2_604cbfffa191c54f9835e4309755c3ba/node_modules/next/app.js"],"sourcesContent":["module.exports = require('./dist/pages/_app')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}}]
+}

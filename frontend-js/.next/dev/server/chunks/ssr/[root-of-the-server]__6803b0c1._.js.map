@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardPage() {\r\n    return (\r\n        <div className=\"flex flex-col items-centerj justify-center min-h-screen bg-gray-100 dark:bg-gray-900\">\r\n        <h1>Dashboard</h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,4aAAC;QAAI,WAAU;kBACf,cAAA,4aAAC;sBAAG;;;;;;;;;;;AAGZ"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/app/%28auth%29/layout.tsx"],"sourcesContent":["export default function AuthLayout({\r\n    children,\r\n} : {\r\n    readonly children: React.ReactNode;\r\n}) {\r\n    return (\r\n        <div className=\"flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900\">\r\n            {children}\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS,WAAW,EAC/B,QAAQ,EAGX;IACG,qBACI,4aAAC;QAAI,WAAU;kBACV;;;;;;AAGb"}}]
+}

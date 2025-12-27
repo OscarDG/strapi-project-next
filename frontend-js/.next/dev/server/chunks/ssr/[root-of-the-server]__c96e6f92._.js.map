@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/app/%28auth%29/signin/page.tsx"],"sourcesContent":["export default function SignInPage() {\r\n    return (\r\n        <div>\r\n            <h1>Sign In Page</h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,4aAAC;kBACG,cAAA,4aAAC;sBAAG;;;;;;;;;;;AAGhB"}}]
+}

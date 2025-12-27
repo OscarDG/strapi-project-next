@@ -1,0 +1,20 @@
+{
+  "node": {
+    "80437a36ff89f7fd49bdc0fa9e963ba851772746a9": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/lib/strapi.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/lib/strapi.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/lib/strapi.ts"
+    }
+  },
+  "edge": {}
+}

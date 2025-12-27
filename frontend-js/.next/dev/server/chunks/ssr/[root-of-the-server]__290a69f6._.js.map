@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/app/page.tsx"],"sourcesContent":["import { getStrapiData } from \"@lib/strapi\";\n\nexport default async function Home() {\n  const strapiData = await getStrapiData(\"/api/home-page\");\n\n  const { title, description } = strapiData;\n  return (\n    <main className=\"container mx-auto py-6\">\n      <h1 className=\"text-3xl font-bold\">{title}</h1>\n      <p className=\"text-gray-600\">{description}</p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,eAAe;IAC5B,MAAM,aAAa,MAAM,cAAc;IAEvC,MAAM,EAAE,KAAK,EAAE,WAAW,EAAE,GAAG;IAC/B,qBACE,4aAAC;QAAK,WAAU;;0BACd,4aAAC;gBAAG,WAAU;0BAAsB;;;;;;0BACpC,4aAAC;gBAAE,WAAU;0BAAiB;;;;;;;;;;;;AAGpC"}}]
+}

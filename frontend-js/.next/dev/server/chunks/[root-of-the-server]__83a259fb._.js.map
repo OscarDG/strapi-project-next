@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/espar/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/proxy.ts"],"sourcesContent":["const protectedRoutes = ['/dashboard'];\r\n\r\nfunction checkIsProtectedRoute(path: string) {\r\n    return protectedRoutes.includes(path);\r\n}\r\n\r\nexport async function proxy(request: NextRequest) {\r\n    const curentPath = request.nextUrl.pathname;\r\n\r\n    const isProtectedRoute = checkIsProtectedRoute(curentPath);\r\n\r\n    if(!isProtectedRoute) {\r\n        return NextResponse.next();\r\n    }\r\n}\r\n"],"names":[],"mappings":";;;;AAAA,MAAM,kBAAkB;IAAC;CAAa;AAEtC,SAAS,sBAAsB,IAAY;IACvC,OAAO,gBAAgB,QAAQ,CAAC;AACpC;AAEO,eAAe,MAAM,OAAoB;IAC5C,MAAM,aAAa,QAAQ,OAAO,CAAC,QAAQ;IAE3C,MAAM,mBAAmB,sBAAsB;IAE/C,IAAG,CAAC,kBAAkB;QAClB,OAAO,aAAa,IAAI;IAC5B;AACJ"}}]
+}

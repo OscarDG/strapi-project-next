@@ -1,0 +1,20 @@
+{
+  "node": {
+    "60781a2daaed413b3e41a9351f563a2c67f7c322ab": {
+      "workers": {
+        "app/(auth)/signup/page": {
+          "moduleId": "[project]/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/.next-internal/server/app/(auth)/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerUserAction",
+          "filename": "OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/signup/page": "action-browser"
+      },
+      "exportedName": "registerUserAction",
+      "filename": "OneDrive/Escritorio/Programming/NextJs-Strapi/frontend-js/actions/auth.ts"
+    }
+  },
+  "edge": {}
+}
