@@ -1,7 +1,7 @@
 import { cacheLife } from "next/cache";
 import qs from "qs";
 
-export const STRAPI_BASE_URL= process.env.STRAPI_URL //acá trae la URL del .env
+export const STRAPI_BASE_URL= process.env.STRAPI_URL || 'http://localhost:1337' //acá trae la URL del .env
 
 const QUERY_HOME_PAGE= {
 populate: {
